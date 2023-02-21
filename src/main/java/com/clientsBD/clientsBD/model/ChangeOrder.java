@@ -7,14 +7,10 @@ import java.util.List;
 
 @Data
 public class ChangeOrder {
-    private String deliveryName;
-    private String deliveryStreet;
-    private String deliveryCity;
-    private String deliveryState;
-    private String deliveryZip;
-    private String ccNumber;
-    private String ccExpiration;
-    private String ccCW;
+    private String brandCar;
+    private String modelCar;
+    private String dateChange;
+    private String sumPrice;
 
     private List<Car> cars = new ArrayList<>();
 

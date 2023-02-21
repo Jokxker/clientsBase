@@ -7,7 +7,7 @@ public class Ingredient {
 
     private final String id;
     private final String name;
-    private final String type;
+    private final Type type;
 
     public enum Type {
         OIL, AIR, CABIN
